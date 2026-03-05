@@ -7,6 +7,7 @@
 Projektas buvo sukurtas kaip studijų darbas, siekiant praktiškai pritaikyti interneto svetainių kūrimo pagrindus.
 
 ## Projekto struktūra
+```text
 project/
 │
 ├── index.html
@@ -24,6 +25,7 @@ project/
 │   
 ├── notes.md
 └── readme.md
+```
 
 ## Svetainės funkcijos
 
