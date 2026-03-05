@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="lt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skonio Kampelis | Kontaktai</title>
+  <meta name="description" content="Parašykite mums – pasiūlykite receptą, užduokite klausimą ar paprašykite meniu idėjų.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+    <div class="container navbar">
+        <a class="brand" href="index.html">
+        <img src="img/skonio-kampelis-logo.png" alt="Skonio Kampelis" class="logo">
+        </a>
+        <nav aria-label="Pagrindinė navigacija">
+        <ul>
+            <li><a href="index.html">Pagrindinis</a></li>
+            <li><a href="recipes.html">Receptai</a></li>
+            <li><a href="contact.html" aria-current="page">Kontaktai</a></li>
+        </ul>
+        </nav>
+    </div>
+    </header>
+
+    <main id="main">
+        <a class="skip-link" href="#main">Praleisti į turinį</a>
+        
+        <section class="hero">
+            <div class="container">
+            <h1>Parašykite mums</h1>
+            <p>Pasiūlykite receptą, užduokite klausimą ar paprašykite savaitės meniu idėjų.</p>
+            <img class="hero-img" src="img/main_photo.jpg" alt="Švieži ingredientai ant stalo">
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+            <h2>Kontaktinė forma</h2>
+
+            <form class="form" method="post" action="#" aria-label="Kontaktinė forma">
+                <div class="inline">
+                <div>
+                    <label for="fullname">Vardas</label>
+                    <input id="fullname" name="fullname" type="text" required>
+                </div>
+                <div>
+                    <label for="email">El. paštas</label>
+                    <input id="email" name="email" type="email" required>
+                </div>
+                </div>
+
+                <div>
+                <label for="topic">Tema</label>
+                <select id="topic" name="topic">
+                    <option value="recipe">Recepto pasiūlymas</option>
+                    <option value="menu">Savaitės meniu idėja</option>
+                    <option value="question">Klausimas / patarimas</option>
+                    <option value="other">Kita</option>
+                </select>
+                </div>
+
+                <div>
+                <label for="message">Žinutė</label>
+                <textarea id="message" name="message" rows="6" placeholder="Jūsų žinutė..." required></textarea>
+                </div>
+
+                <button class="btn" type="submit">Siųsti žinutę</button>
+            </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    <div class="container">
+        <p><strong>Skonio Kampelis</strong> © 2026</p>
+    </div>
+    </footer>
+
+</body>
+</html>
